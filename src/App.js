@@ -18,7 +18,7 @@ function App() {
             path="/"
             exact
             render={() => (
-              <div class="barcontent">
+              <div>
                 <Land />
               </div>
             )}

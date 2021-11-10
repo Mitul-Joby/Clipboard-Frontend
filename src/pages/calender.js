@@ -12,17 +12,11 @@ function CalendarComp() {
   };
   return (
     <div>
-      <Box
-        id="content"
-        component="main"
-        sx={{ flexGrow: 1, p: 3, paddingLeft: "100px" }}
-      >
-        <Calendar value={dateState} onChange={changeDate} />
-        <p>
-          Current selected date is{" "}
-          <b>{moment(dateState).format("MMMM Do YYYY")}</b>
-        </p>
-      </Box>
+      <Calendar value={dateState} onChange={changeDate} />
+      <p>
+        Current selected date is{" "}
+        <b>{moment(dateState).format("MMMM Do YYYY")}</b>
+      </p>
     </div>
   );
 }

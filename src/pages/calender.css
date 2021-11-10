@@ -7,3 +7,6 @@
     line-height: 1.125em;
     border-radius: 20px;
 }
+.react-calendar button{
+    border-radius : 30px;
+}
